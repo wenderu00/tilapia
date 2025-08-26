@@ -1,0 +1,13 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* A mesma fonte do header */
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2); /* Sombra para o topo */
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+}

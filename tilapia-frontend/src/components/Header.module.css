@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem; /* Aumentado para mais espaço */
+  background: linear-gradient(135deg, #0077b6, #00b4d8); /* Degradê de azul */
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave para destacar */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.button {
+  background-color: transparent;
+  border: 2px solid #fff; /* Borda branca para contraste */
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 50px; /* Borda arredondada para um visual mais suave */
+  transition: all 0.3s ease; /* Animação suave para o hover */
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #0077b6; /* Cor do texto no hover para combinar com o degradê */
+  transform: translateY(-2px); /* Efeito sutil de levantar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logoText {
+  font-family: "Georgia", serif; /* Uma fonte elegante, ou qualquer outra que você goste */
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px; /* Espaçamento entre as letras */
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra para dar profundidade */
+  transition: all 0.3s ease;
+}
+
+.logoText:hover {
+  color: #c7f1ff; /* Um azul mais claro para o efeito de hover */
+  transform: translateY(-2px); /* Efeito sutil de levantar */
+}

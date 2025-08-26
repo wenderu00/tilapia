@@ -1,0 +1,82 @@
+.card-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  /* Borda azul clara */
+  border: 2px solid #1e90ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  max-width: 600px;
+  margin: 20px auto;
+  /* Transição suave para o efeito de hover */
+  transition: all 0.3s ease;
+}
+
+.card-title {
+  margin-top: 0;
+  font-size: 1.5rem;
+  /* Cor da fonte inicial azul */
+  color: #0050b3;
+}
+
+.card-description,
+.card-details {
+  /* Cor da fonte inicial azul para as outras informações */
+  color: #0050b3;
+}
+
+/* Opcional: Adicionar responsividade para telas menores */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column; /* Em telas menores, a imagem vai para cima do texto */
+    text-align: center;
+  }
+
+  .card-image-wrapper {
+    margin-right: 0;
+    margin-bottom: 16px; /* Adiciona espaço abaixo da imagem */
+  }
+}
+.card-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  /* Borda azul clara */
+  border: 2px solid #1e90ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  max-width: 600px;
+  margin: 20px auto;
+  /* Transição suave para o efeito de hover */
+  transition: all 0.3s ease;
+}
+
+.card-title {
+  margin-top: 0;
+  font-size: 1.5rem;
+  /* Cor da fonte inicial azul */
+  color: #0050b3;
+}
+
+.card-description,
+.card-details {
+  /* Cor da fonte inicial azul para as outras informações */
+  color: #0050b3;
+}
+
+.card-container:hover {
+  /* Fundo azul no hover */
+  background: linear-gradient(135deg, #0077b6, #00b4d8);
+  /* Remove a borda no hover (opcional, mas fica mais limpo) */
+  border-color: transparent;
+  transform: translateY(-2px);
+}
+
+.card-container:hover .card-title,
+.card-container:hover .card-description,
+.card-container:hover .card-details {
+  /* Cor da fonte branca no hover */
+  color: #ffffff;
+}
