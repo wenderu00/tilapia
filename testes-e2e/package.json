@@ -10,7 +10,10 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/node": "^24.3.0",
     "codeceptjs": "^3.7.4",
-    "puppeteer": "^24.17.0"
+    "puppeteer": "^24.17.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
   }
 }
